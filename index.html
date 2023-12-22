@@ -19,8 +19,6 @@
     <ul v-if="sysList">
       <li v-for="(sys, idx) in sysList" :key="sys.id">
         <h2>{{sys.name}}</h2>
-        <!-- <button @click="toggleDetails(idx)">{{isShowDetails[idx]? '閉じる': '詳細表示'}}</button> -->
-        <!-- <ul v-for="(scene, id) in sys.scenes" :key="scene.name" v-show="isShowDetails[idx]"> -->
         <ul v-for="(scene, id) in sys.scenes" :key="scene.name" v-show=true>
           <span>
             <li @click="windowOpen(scene.url)">

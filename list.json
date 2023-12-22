@@ -14,12 +14,14 @@
         "name": "webAR",
         "scenes": [
           {
-            "name": "ドラゴン",
-            "url": "https://shimada-wisteria.github.io/webar/webar-demo/webar/dragon2.html"
-          },
-          {
             "name": "スポーツカー",
             "url": "https://shimada-wisteria.github.io/webar/webar-demo/webar/sportscar.html"
+          }
+        ],
+        "_scenes": [
+          {
+            "name": "ドラゴン",
+            "url": "https://shimada-wisteria.github.io/webar/webar-demo/webar/dragon2.html"
           }
         ]
     }
